@@ -28,7 +28,7 @@ t = [0, 0, 1]
 ###################################
 def cross_entropy_error(y, t):
     delta = 1e-7
-    loss = -np.sum(t*np.log(y+delta)) # write code here
+    loss = None # write code here
     return loss
 
 #%%
